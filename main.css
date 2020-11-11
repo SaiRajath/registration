@@ -98,4 +98,49 @@ a {
     color: hsl(0, 100%, 74%) ;
 }  
 
+@media screen and (min-width: 1440px){
+    body{
+        background-image: none;
+    }
+    .bg{
+        background-image: url(bg-intro-desktop.png) ;
+    }
+
+    .cont1{
+        float: left;  
+        margin-top: 16%;
+        margin-left: 10%;
+    }
+    .right{
+        text-align: left;
+        max-width: 600px;
+
+    }
+    h2{
+        text-align: left;
+        padding-left: 0px;
+        font-size: 2rem;
+        line-height: 40px;
+        max-width: 400px;
+    }
+
+    .post{
+       padding-top: 9%;
+    }
+    .bubble{
+        width: 500px;
+    }
+    .box{
+        width: 500px;
+        height: 400px;
+    }
+    .info{
+        height: 50px;
+    }
+    form p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
 
